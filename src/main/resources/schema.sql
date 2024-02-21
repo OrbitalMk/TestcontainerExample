@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS post (
+    id INT NOT NULL,
+    title VARCHAR(50) NOT NULL,
+    body VARCHAR(250) NOT NULL,
+    PRIMARY KEY (id)
+)
